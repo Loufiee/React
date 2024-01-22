@@ -1,0 +1,25 @@
+.text-on-image p {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+.Media img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.head-text {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.head-text + .head-text {
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .text-on-image {
+    font-size: 1em;
+  }
+}
